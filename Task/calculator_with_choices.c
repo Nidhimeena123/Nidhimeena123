@@ -1,33 +1,32 @@
 //Ask user choice and do calculation
 
 #include<stdio.h>
-
 //function
-int addition(){
+void addition(){
 	int num1, num2;
     printf("Enter two numbers : ");
     scanf("%d %d", &num1, &num2);
     printf("Your Ans : %d\n", num1 + num2);
 }
-int subtraction(){
+void subtraction(){
 	int num1, num2;
     printf("Enter two numbers : ");
     scanf("%d %d", &num1, &num2);
 	printf("Your Ans : %d ",num1-num2);
 }
-int multiplication(){
+void multiplication(){
 	int num1, num2;
     printf("Enter two numbers : ");
     scanf("%d %d", &num1, &num2);
 	printf("Your Ans : %d",num1*num2);
 }
-int division(){
+void division(){
 	int num1, num2;
     printf("Enter two numbers : ");
     scanf("%d %d", &num1, &num2);
 	printf("Your Ans : %d",num1/num2);
 }
-int modulo(){
+void modulo(){
 	int num1, num2;
     printf("Enter two numbers : ");
     scanf("%d %d", &num1, &num2);

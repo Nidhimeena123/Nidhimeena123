@@ -9,7 +9,7 @@ void Pizza(){
 	printf("\nYour Item : Pizza \n");
 	printf("Enter Quantity : ");
     scanf("%d",&quantity);
-	printf("Total Price : %d\n",total=price*quantity);
+	printf("Total Price : %d/-\n",total=price*quantity);
 }
 void Burger(){
 	int quantity,price=89,total;
@@ -17,7 +17,7 @@ void Burger(){
 	printf("\nYour Item : Burger \n");
 	printf("Enter Quantity : ");
     scanf("%d",&quantity);
-	printf("Total Price : %d\n",total=price*quantity);
+	printf("Total Price : %d/-\n",total=price*quantity);
 }
 void Pani_Puri(){
 	int quantity,price=100,total;
@@ -25,7 +25,7 @@ void Pani_Puri(){
 	printf("\nYour Item : Pani-Puri \n");
 	printf("Enter Quantity : ");
     scanf("%d",&quantity);
-	printf("Total Price : %d\n",total=price*quantity);
+	printf("Total Price : %d/-\n",total=price*quantity);
 }
 void Dosa(){
 	int quantity,price=80,total;
@@ -33,16 +33,13 @@ void Dosa(){
 	printf("\nYour Item : Dosa \n");
 	printf("Enter Quantity : ");
     scanf("%d",&quantity);
-	printf("Total Price : %d\n",total=price*quantity);
+	printf("Total Price : %d/-\n",total=price*quantity);
 }
-void totalBill(){
-	int totalbill=0,total;
-    printf("Your Total Bill : %d\n",totalbill *= total);
-    printf("thankyou");
-}
+
 
 int main()
 {
+	 char choose;
 	
 //	Printing the Heading
     printf("==========Welcome To Tops Restaurant==========\n\n");
@@ -52,15 +49,14 @@ int main()
     printf(" 3       Pani-Puri   100/-\n");
     printf(" 4       Dosa        80/-\n");
     
-    char choose;
-    
-//    Asking choice from user
+
     do{
+//    	getting user's choice from the list
     int choice;
     printf("\nEnter Your Choice From the Above List : ");
     scanf("%d",&choice);
     
-//    Performing operation for selected choices
+//    Performing operation based on user's choice
       switch(choice){
       	case 1:
       		Pizza();
@@ -82,7 +78,8 @@ int main()
       printf("\nDo you want Anything else ? ['y/n']");
       scanf(" %c", &choose);
       
-} while(choose=='y');
-     totalBill();
+} while(choose=='y');//if user choose yes it will repeat the process
+//this will be printed if user chooses no
+    printf("Thank You");
 	return 0;
 }
