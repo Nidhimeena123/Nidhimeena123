@@ -21,6 +21,6 @@ int main()
   
   printf("\nTotal even numbers:%d",even);
   printf("\nTotal odd numbers:%d",odd);
-  printf("%d\n",num);
+//  printf("%d\n",num);
   return 0;
 }

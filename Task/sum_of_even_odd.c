@@ -2,7 +2,7 @@
 #include<stdio.h>
 int main()
 {
-  int i,n,num,even=0,odd=0;
+  int i,n,even=0,odd=0;
   printf("enter numbers:",n+1);
   for(i=0;i<=5;i++)
   {

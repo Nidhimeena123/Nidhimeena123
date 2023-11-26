@@ -1,4 +1,4 @@
-//factorial
+//factorial using for-loop
 
 #include<stdio.h>
 
@@ -9,6 +9,6 @@ int main(){
 	scanf("%d",&num);
 	for(i=1;i<=num;i++)
 		f=f*i;
-		printf("The factorial of %d = %d\n", num, f);''
+		printf("The factorial of %d = %d\n", num, f);
 	return 0;
 }
