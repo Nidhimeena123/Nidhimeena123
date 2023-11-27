@@ -2,7 +2,8 @@
 #include<stdio.h>
 int main()
 {
-  int i,n,num,even=0,odd=0;
+  int n,num,even=0,odd=0;
+  int i;
   printf("enter numbers:",n+1);
   for(i=0;i<=5;i++)
   {
@@ -20,7 +21,7 @@ int main()
   }
   
   printf("\nTotal even numbers:%d",even);
-  printf("\nTotal odd numbers:%d",odd);
-//  printf("%d\n",num);
+  printf("\nTotal odd numbers:%d\n",odd);
+  printf("%d\n",num);
   return 0;
 }
