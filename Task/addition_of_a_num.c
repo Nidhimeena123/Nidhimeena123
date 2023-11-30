@@ -1,4 +1,4 @@
-//addition of a number
+//sum of digit
 
 #include<stdio.h>
 int main()
@@ -15,5 +15,6 @@ int main()
 	{
 		sum+=num;
 	}
+	
 	printf("%d",sum);
 }
