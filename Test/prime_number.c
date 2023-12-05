@@ -2,17 +2,21 @@
 
 int main()
 {
-	int num;
-	printf("Enter number : ");
+	int num,count=0;
+	int i;
+	printf("Enter number :");
 	scanf("%d",&num);
 	
-	if(num/2==0)
+	for(i=1;i<=num;i++)
 	{
-		printf("number is prime number");
-	}
-	else
+	if(num % i ==0)
 	{
-		printf("Number is not a prime number");
+		count++;
 	}
+}
+   if(count==2)
+   printf("Prime Number");
+   else
+   printf("Not Prime Number");
 	return 0;
 }
