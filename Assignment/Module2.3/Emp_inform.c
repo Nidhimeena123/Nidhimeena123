@@ -1,5 +1,6 @@
 #include<stdio.h>
 
+//creating structure
 struct Employee
 {
 	int empno;
@@ -10,9 +11,11 @@ struct Employee
 
 int main()
 {
+//	Structure variable
     struct Employee emp;
     int i;
     {
+//    	User will enter their details asked
     	fflush(stdin);
     	printf("Enter Your Empno : ");
     	scanf("%d",&emp.empno);
@@ -29,6 +32,7 @@ int main()
     	printf("\n");
 	}
 	
+//	printing the details 
 	printf("\n\n=============Employee Information==============\n\n");
      	printf("Empno : %d\n",emp.empno);
     	printf("Name : %s\n",emp.empname);

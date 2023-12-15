@@ -7,7 +7,6 @@ void reverseString(char str[]) {
     int i, j;
 
     for (i = 0, j = length - 1; i < j; i++, j--) {
-        // Swap characters 
         char temp = str[i];
         str[i] = str[j];
         str[j] = temp;
@@ -20,12 +19,12 @@ int isPalindrome(char str[]) {
     int i, j;
 
     for (i = 0, j = length - 1; i < j; i++, j--) {
-        // If characters are not equal, it's not a palindrome
+        // if characters are not equal, it's not a palindrome
         if (str[i] != str[j]) {
             return 0; 
         }
     }
-    return 1; // It's a palindrome
+    return 1; 
 }
 
 int main() {

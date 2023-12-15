@@ -6,6 +6,7 @@ int main(){
 	int sum[10],arr[10];
 	int i,j;
 	printf("Enter numbers :\n");
+	
 //	 Taking array elements from user
 	for(i=0;i<10;i++)
 	{

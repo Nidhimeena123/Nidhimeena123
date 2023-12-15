@@ -2,6 +2,7 @@
 
 #include<stdio.h>
 int main() {
+//	variable declaration and initialization
     int n, num1=0, num2=1, nextNum;
     int i;
 

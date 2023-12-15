@@ -1,5 +1,6 @@
 #include<stdio.h>
 
+//creating structure of employee
 struct Employee
 {
 	int empno;
@@ -10,8 +11,10 @@ struct Employee
 
 int main()
 {
+//	creating structure varaible
     struct Employee emp[5];
     int i;
+//    Asking 5 employees to enter their details
     for(i=0;i<5;i++)
     {
     	fflush(stdin);
@@ -30,6 +33,7 @@ int main()
     	printf("\n");
 	}
 	
+//	printing employees details
 	printf("\n\n=============Employee Information==============\n\n");
 	for(i=0;i<5;i++)
 	{

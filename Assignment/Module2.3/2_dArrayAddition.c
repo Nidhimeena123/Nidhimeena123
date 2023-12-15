@@ -1,6 +1,7 @@
 #include<stdio.h>
 int main()
 {
+//	array declaration
 	int arr1[2][2],arr2[2][2],arr3[2][2];
 	int i,j;
 	
