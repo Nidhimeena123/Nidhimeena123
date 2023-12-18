@@ -79,7 +79,6 @@ int main()
       
 } while(choose=='y' || choose=='Y');//if user choose yes it will repeat the process
 //this will be printed if user chooses no
-    printf("Your Total Amount is = %drs\n",total=amount+amount);
     printf("\nThank You for Ordering\n");
 	return 0;
 }
