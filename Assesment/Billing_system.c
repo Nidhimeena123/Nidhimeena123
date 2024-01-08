@@ -11,14 +11,14 @@ void Pizza(){
 	printf("\nYou have selected Pizza\n");
 	printf("Enter Quantity : ");
     scanf("%d",&quantity);
-	printf("Amount : %drs\n",amount=price*quantity);
+	printf("Amount : %drs\n",amount=price*quantity); //total amount 
 }
 void Burger(){
 	int price=100;
 	printf("\nYou have selected Burger\n");
 	printf("Enter Quantity : ");
     scanf("%d",&quantity);
-    printf("Amount : %drs\n",amount=price*quantity);
+    printf("Amount : %drs\n",amount=price*quantity); //total amount
 
 }
 void Pani_Puri(){
@@ -26,14 +26,14 @@ void Pani_Puri(){
 	printf("\nYou have selected Dosa\n");
 	printf("Enter Quantity : ");
     scanf("%d",&quantity);
-	printf("Amount : %drs\n",amount=price*quantity);
+	printf("Amount : %drs\n",amount=price*quantity);  //total amount
 }
 void Dosa(){
 	int price=50;
 	printf("\nYou have selected Idli\n");
 	printf("Enter Quantity : ");
     scanf("%d",&quantity);
-	printf("Amount : %drs\n",amount=price*quantity);
+	printf("Amount : %drs\n",amount=price*quantity); //total amount
 }
 
 
