@@ -15,7 +15,7 @@ int main(){
     	{
     		if(arr[i] > arr[j])
     		{
-    			      a = arr[i];
+    			 a = arr[i];
     			 arr[i] = arr[j];
     			 arr[j] = a;
 			}

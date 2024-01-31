@@ -1,4 +1,4 @@
-#include<stdio.h>
+	#include<stdio.h>
 int main()
 {
 	int arr1[2][2],arr2[2][2],arr3[2][2],sum=0;
